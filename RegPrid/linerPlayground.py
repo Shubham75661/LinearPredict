@@ -8,7 +8,6 @@ from sklearn.metrics import r2_score
 # App title
 st.title("📈 LinearPredict: Simple & Multi Linear Regression Tool")
 
-# File upload
 file = st.file_uploader("Upload your CSV or Excel file", type=["csv", "xlsx"])
 
 # Load the data
